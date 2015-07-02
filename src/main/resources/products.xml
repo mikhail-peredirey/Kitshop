@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products xmlns="http://www.epam.com/products"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.epam.com/products http://www.epam.com/products/products.xsd">
+    <product>
+        <uuid>12345678-1234-1234-1234-123412341234</uuid>
+        <vendor>Cisco</vendor>
+        <model>2940</model>
+        <ports>10</ports>
+        <firmware>Cisc2940-K9</firmware>
+        <feature>STP</feature>
+        <manufactureDate>2015-01-01</manufactureDate>
+    </product>
+    <product>
+        <vendor>D-Link</vendor>
+        <model>DES-3200</model>
+        <ports>18</ports>
+        <firmware>DES-FIRMWARE-3.0.0</firmware>
+        <feature>RSTP</feature>
+    </product>
+    <product>
+        <vendor>HP</vendor>
+        <model>ProCurve2910</model>
+        <ports>48</ports>
+        <firmware>HP-PROCURVE</firmware>
+        <feature>LACP</feature>
+    </product>
+    <product>
+        <vendor>Zyxel</vendor>
+        <model>ES-2108</model>
+        <ports>10</ports>
+        <firmware>ZYXEL-FIRMWARE</firmware>
+        <feature>SFP+</feature>
+    </product>
+</products>
